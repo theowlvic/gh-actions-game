@@ -3,7 +3,7 @@ import sys
 import os
 import re
 from pathlib import Path
-
+#function to test if the prompt is emboldened
 def test_bold_prompt():
     """Run the story.py script and ensure color codes appear in output."""
     script_path = Path("src/adventure/story.py").resolve()
